@@ -8,7 +8,7 @@ ans=""
 s.setup(500,400)
 inp=s.textinput("Make your bet","Which turtle will win?")
 print(inp)
-print(s)
+
 for i in range(0,6):
     t=Turtle("turtle")
     t.penup()
